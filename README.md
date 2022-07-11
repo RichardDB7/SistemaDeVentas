@@ -9,5 +9,5 @@
 - 100% funcional para ser desplegada en una pc o red lan.
 
 ----------Paquetes del sistema----------
-- <a href="https://github.com/RichardDB7/SistemaDeVentas/tree/main/DER"> Diagrama Entidad Relacion </a><a href="https://github.com/RichardDB7/SistemaDeVentas/blob/main/DER/Sistema.db.png"> Gráfico DER </a>
+- <a href="https://github.com/RichardDB7/SistemaDeVentas/tree/main/DER"> Diagrama Entidad Relacion </a> - <a href="https://github.com/RichardDB7/SistemaDeVentas/blob/main/DER/Sistema.db.png"> [Gráfico DER] </a>
 - <a href="https://github.com/RichardDB7/SistemaDeVentas/tree/main/PaqueteDatabase"> Paquete de Conexión a datos </a> - <a href="https://github.com/RichardDB7/SistemaDeVentas/blob/main/PaqueteDatabase/Conexion.Java">[Conexión]</a> <a href="https://github.com/RichardDB7/SistemaDeVentas/blob/main/PaqueteDatabase/PruebaConexi%C3%B3n.java">[Test Base De Datos]</a> 
