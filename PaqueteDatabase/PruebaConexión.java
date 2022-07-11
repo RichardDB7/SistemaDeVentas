@@ -3,7 +3,7 @@ package Database;
 public class PruebaConexion {
 	public static void main(String[] args) {
 		
-		//Creo un objeto de tipo conexión y su instancia
+		//Creo un objeto de tipo conexión y hago referencia a la calse Conexión junto a su método getInstancia
 		Conexion con = Conexion.getInstancia();
 		//Llamada al método conectar
 		con.conectar();
