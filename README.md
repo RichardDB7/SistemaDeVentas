@@ -8,5 +8,6 @@
 - Reportes para exportar en pdf.
 - 100% funcional para ser desplegada en una pc o red lan.
 
+----------Paquetes del sistema----------
 - <a href="https://github.com/RichardDB7/SistemaDeVentas/tree/main/DER"> Diagrama Entidad Relacion </a>
 - <a href="https://github.com/RichardDB7/SistemaDeVentas/tree/main/PaqueteDatabase"> Paquete de Conexión a datos </a>
