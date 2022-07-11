@@ -19,6 +19,8 @@ public class Conexion {
     
     //Variables Publicas
     public Connection cadena; // Variable que almacena la clase que es el driver jdvc para conectarse a la base de datos
+    
+    //Aplicación del patrón singleton mediante brindamos un solo punto de acceso global
     public static Conexion instancia;
     
     //Constructor
@@ -48,10 +50,13 @@ public class Conexion {
         }
     }
     
+    //Método que retorna un objeto de tipo conexión
     public synchronized static Conexion getInstancia(){
+        //Comprobación de la existencia de una instancia previa 
         if (instancia==null){
             instancia=new Conexion();
         }
+        //Retorno la instancia cada vez que se invoque el método instancia
         return instancia;
     }
 }
