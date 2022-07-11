@@ -8,8 +8,7 @@
 - Reportes para exportar en pdf.
 - 100% funcional para ser desplegada en una pc o red lan.
 
-- <a href="https://github.com/RichardDB7/SistemaDeVentas/blob/main/Sistema.png">----[Imagen]----</a>
-
+<img src="https://github.com/RichardDB7/SistemaDeVentas/blob/main/Sistema.png" height="500">
 
 
 ----------Paquetes del sistema----------
