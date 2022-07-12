@@ -6,7 +6,7 @@
 - Se desarrolla el concepto CRUD tanto en las tablas independientes, Tablas relacionales y Detalles.
 - Se elabora un método de paginación de registros y gestión de accesos: Usuarios y Roles.
 - Se implementan consultas y búsquedas.
-- Reportes para exportar en pdf.
+- Reportes para exportar en pdf. -Próximamente-
 - 100% funcional para ser desplegada en una pc o red lan.
 
 <img src="https://github.com/RichardDB7/SistemaDeVentas/blob/main/Sistema.png" height="500">
