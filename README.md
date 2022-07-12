@@ -14,5 +14,6 @@
 
 ----------Paquetes del sistema----------
 - <a href="https://github.com/RichardDB7/SistemaDeVentas/tree/main/DER"> Diagrama Entidad Relacion </a> - <a href="https://github.com/RichardDB7/SistemaDeVentas/blob/main/DER/Sistema.db.png"> [Gráfico DER] </a>
-- <a href="https://github.com/RichardDB7/SistemaDeVentas/tree/main/PaqueteDatabase"> Paquete de Conexión a datos </a> - <a href="https://github.com/RichardDB7/SistemaDeVentas/blob/main/PaqueteDatabase/Conexion.Java">[Conexión]</a> <a href="https://github.com/RichardDB7/SistemaDeVentas/blob/main/PaqueteDatabase/PruebaConexi%C3%B3n.java">[Test Base De Datos]</a> 
+- <a href="https://github.com/RichardDB7/SistemaDeVentas/tree/main/PaqueteDatabase"> Paquete de Conexión a datos </a> - <a href="https://github.com/RichardDB7/SistemaDeVentas/blob/main/PaqueteDatabase/Conexion.Java">[Conexión]</a> - <a href="https://github.com/RichardDB7/SistemaDeVentas/blob/main/PaqueteDatabase/PruebaConexi%C3%B3n.java">[Test Base De Datos]</a> 
 - <a href="https://github.com/RichardDB7/SistemaDeVentas/tree/main/PaqueteDatos"> Paquete de Datos </a> - <a href="https://github.com/RichardDB7/SistemaDeVentas/tree/main/PaqueteDatos/Interfaces">[Interfaces]</a> - <a href="https://github.com/RichardDB7/SistemaDeVentas/blob/main/PaqueteDatos/CategoriaDAO.java">[CategoriaDAO]</a> 
+- <a href="https://github.com/RichardDB7/SistemaDeVentas/tree/main/PaqueteEntidades"> Paquete De Entidades </a> - <a href="https://github.com/RichardDB7/SistemaDeVentas/blob/main/PaqueteEntidades/ClaseCategoria.java">[Clase Categoria]</a>
