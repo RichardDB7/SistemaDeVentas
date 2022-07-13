@@ -165,7 +165,7 @@ public class CategoriaDAO implements CrudSimpleInterface<Categoria> {
     @Override
     public int total() {
         int totalRegistros=0;
-        try {
+        try { //Utilizo la orden sql Select count id se hace el recuento de los registros
             ps=CON.conectar().prepareStatement("SELECT COUNT(id) FROM categoria");            
             rs=ps.executeQuery();
             
@@ -187,12 +187,12 @@ public class CategoriaDAO implements CrudSimpleInterface<Categoria> {
     @Override
     public boolean existe(String texto) {
         resp=false;
-        try {
+        try {//Obtengo mediante Select el nombre de la tabla categoria donde el nombre tiene que ser igual al valor del parámetro texto
             ps=CON.conectar().prepareStatement("SELECT nombre FROM categoria WHERE nombre=?");
             ps.setString(1, texto);
             rs=ps.executeQuery();
             rs.last();
-            if(rs.getRow()>0){
+            if(rs.getRow()>0){//Si obtenemos al menos una fila respuesta es igual a true
                 resp=true;
             }           
             ps.close();
