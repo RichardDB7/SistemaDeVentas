@@ -225,9 +225,9 @@ public class FrmPrincipal extends javax.swing.JFrame {
     }// </editor-fold>                        
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {                                           
-        FrmCategoria frm=new FrmCategoria();
-        escritorio.add(frm);
-        frm.setVisible(true);
+        FrmCategoria frm=new FrmCategoria();//Se crea un objeto y se instancia la clase FrmCategoria
+        escritorio.add(frm);//Añado objeto al escritorio(FrmPrincipal)
+        frm.setVisible(true);//Visualizamos FrmCategoria
     }                                          
 
     private void mnuAlmacenActionPerformed(java.awt.event.ActionEvent evt) {                                           
