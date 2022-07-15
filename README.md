@@ -3,6 +3,7 @@
 - El sistema comprende las tecnologias Java, Open Jdk,Swing, Mysql Mysql Workbench, Xammp, Poo, en Apache Netbeans. 
 - La misma posee 3 capas [Presentación] , [Negocio] , [Acceso a Datos].
 - Implementación del patrón DAO -Data Acces Object- , Encapsulando toda la logica de acceso a datos del resto de la aplicación, facilitando cambios en la fuente de datos sin tener que refactorizar el código. 
+- La capa Presentación se desarrolla mediante formularios MDI (Multiple Document Interface)
 - Se desarrolla el concepto CRUD tanto en las tablas independientes, Tablas relacionales y Detalles.
 - Se elabora un método de paginación de registros y gestión de accesos: Usuarios y Roles.
 - Se implementan consultas y búsquedas.
