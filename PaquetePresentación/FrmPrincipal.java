@@ -15,7 +15,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
     //Constructor 
     public FrmPrincipal() {
         initComponents();
-        setExtendedState(MAXIMIZED_BOTH);//Llamado de método para maximizar la el formulario con su respectivo parámetro
+        setExtendedState(MAXIMIZED_BOTH);//Llamado de método para maximizar el formulario con su respectivo parámetro
         this.cargarOpcionesMenu();
     }
     
