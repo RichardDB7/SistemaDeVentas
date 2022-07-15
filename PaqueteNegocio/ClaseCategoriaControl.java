@@ -69,7 +69,7 @@ public class CategoriaControl {
         }
     }
     
-    public String actualizar(int id, String nombre,String nombreAnt,String descripcion){
+    public String actualizar(int id, String nombre,String nombreAnt,String descripcion){//Ingreso de parametros, donde nombreAnt sirve para evitar duplicados   
         //Condicional que determina si el nombre a modificar es igual al nombre anterior
         if (nombre.equals(nombreAnt)){
             obj.setId(id);
