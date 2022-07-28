@@ -12,27 +12,29 @@ import negocio.CategoriaControl;
  */
 public class FrmCategoria extends javax.swing.JInternalFrame {
 
-    private  final  CategoriaControl CONTROL;
+    private  final  CategoriaControl CONTROL; //Creacion de objeto de tipo constante
     private String accion;
     private String nombreAnt;
     
     /**
      * Creates new form FrmCategoria
      */
-    public FrmCategoria() {
+    public FrmCategoria() {//Constructor del fomulario
         initComponents();
-        this.CONTROL=new CategoriaControl();
-        this.listar("");
+        this.CONTROL=new CategoriaControl();//Inicio de la clase CategoriaControl
+        this.listar("");//Referencia al método listar
         tabGeneral.setEnabledAt(1, false);
         this.accion="guardar";
         txtId.setVisible(false);
     }
     
-    private void listar(String texto){
-        tablaListado.setModel(this.CONTROL.listar(texto));
+    //Delcaración de metodos a utilizar
+    
+    private void listar(String texto){ //El método requiere un parámetro que es el texto de búsqueda para poder listar, si el parámetro texto es vació se listan todos los registros
+        tablaListado.setModel(this.CONTROL.listar(texto));//Referencia al objeto Control y llamada al metodo listar enviando el valor recibido como parametro   
         TableRowSorter orden = new TableRowSorter(tablaListado.getModel());
         tablaListado.setRowSorter(orden);
-        lblTotalRegistros.setText("Mostrando " + this.CONTROL.totalMostrados() + " de un total de " + this.CONTROL.total() + " registros" );
+        lblTotalRegistros.setText("Mostrando " + this.CONTROL.totalMostrados() + " de un total de " + this.CONTROL.total() + " registros" );//Muestra de registros
     }   
     
     private void limpiar(){
@@ -283,7 +285,7 @@ public class FrmCategoria extends javax.swing.JInternalFrame {
     }// </editor-fold>                        
 
     private void btnBuscarActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        this.listar(txtBuscar.getText());
+        this.listar(txtBuscar.getText());//Llamada al metodo listar obteniendo el texto de búsqueda de la caja de texto
     }                                         
 
     private void btnNuevoActionPerformed(java.awt.event.ActionEvent evt) {                                         
