@@ -1,4 +1,4 @@
-# Sistema De Escritorio de Gestion De Ventas Fullstack
+# Sistema de escritorio de gestion de ventas fullstack
 
 - El sistema comprende las tecnologias Java, Open Jdk,Swing, Mysql Mysql Workbench, Xammp, Poo, en Apache Netbeans. 
 - La misma posee 3 capas [Presentación] , [Negocio] , [Acceso a Datos].
